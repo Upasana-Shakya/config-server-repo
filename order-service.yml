@@ -2,7 +2,7 @@ server:
   port: 8081
   servlet:
     context-path: /order-service
-
+  forward-headers-strategy: framework
 spring:
   application:
     name: order-service
